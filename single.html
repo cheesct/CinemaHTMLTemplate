@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		<title>Movie Review | Single</title>
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+	</head>
+	<body class="site-content">
+		<header class="site-header">
+			<div class="container">
+				<a href="index.html" id="branding">
+					<img src="images/logo.png" alt="" class="logo">
+					<div class="logo-copy">
+						<h1 class="site-title">Company Name</h1>
+						<small class="site-description">Tagline goes here</small>
+					</div>
+				</a> <!-- #branding -->
+				<div class="main-navigation">
+					<ul class="menu">
+						<li class="menu-item"><a href="index.html?#"><div>Home</div></a></li>
+						<li class="menu-item current-menu-item"><a href="review.html?#"><div>Movie Reviews</div></a></li>
+						<li class="menu-item"><a><div>About</div></a></li>
+						<li class="menu-item"><a><div>Contact</div></a></li>
+					</ul> <!-- .menu -->
+					<form action="#" class="search-form">
+						<input type="text" placeholder="Search...">
+						<button><i class="fa fa-search"></i></button>
+					</form>
+				</div> <!-- .main-navigation -->
+				<div class="mobile-navigation"></div>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<div class="page">
+					<div class="breadcrumbs">
+						<a href="index.html">Home</a>
+						<a href="review.html">Movie Review</a>
+						<span>The Croods</span>
+					</div>
+					<div>
+						<div class="row" style="margin-bottom: 20px;">
+							<div class="column"  style="width: 40%">
+								<figure class="movie-poster" style='display: flex; justify-content: center; align-content: center'>
+									<img  style='width: auto; height: 100%; border-radius: 5px' id='poster' src="dummy/croods.png" alt="#">
+								</figure>
+							</div>
+							<div class="column" id='info' style="width: 60%; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+									<div class="movie-title-big">The Croods</div>
+									<div class="movie-summary">
+										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+
+										<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit sed.</p>
+									</div>
+									<div class="movie-meta">
+										<div>
+											<div class="movie-meta-label">Score:</div>
+											<div class="movie-meta-value">
+												<div class="star-rating">
+													<span style="width:80%"><strong class="rating">4.00</strong> out of 5</span>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="movie-meta-label">Length:</div>
+											<div class="movie-meta-value">98 min</div>
+										</div>
+										<div>
+											<div class="movie-meta-label">Premiere:</div>
+											<div class="movie-meta-value">22 March 2013 (USA)</div>
+										</div>
+										<div>
+											<div class="movie-meta-label">Rating:</div>
+											<div class="movie-meta-value">PG</div>
+										</div>
+										<div>
+											<div class="movie-meta-label">Category:</div>
+											<div class="movie-meta-value"><a href="#">Animation</a> / <a href="#">Adventure</a> / <a href="#">Comedy</a></div>
+										</div>
+										<div>
+											<div class="movie-meta-label">Directed By:</div>
+											<div class="movie-meta-value"><a href="#">Kirk de Mico</a>, <a href="#">Chris Sanders</a></div>
+										</div>
+										<div>
+											<div class="movie-meta-label">Written By:</div>
+											<div class="movie-meta-value"><a href="#">Chris Sanders</a>, <a href="#">Kirk de Mico</a></div>
+										</div>
+										<div>
+											<div class="movie-meta-label">Cast:</div>
+											<div class="movie-meta-value"><a href="#">Nicolas Cage</a>, <a href="#">Ryan Reynolds</a>, <a href="#">Emma Stone</a></div>
+										</div>
+									</div>
+							</div>
+						</div> <!-- .row -->
+						<div class="row" style="margin-bottom: 20px; height: 350px;">
+							<div class="column" style="width: 60%; height: 100%; padding-right: 10px;">
+								<div class="critic">
+									<h1 style="margin: 0px; color: #FFB556">Critic Review</h1>
+									<div style="margin-bottom: 15px; display: block">
+										<h2>"Lorem ipsum dolor sit amet, sit ne movet dicunt. Utroque officiis posidonium at cum, eam."</h2>
+										<p>11/10 - Lorem ipsum</p>
+										<h2>"Lorem ipsum dolor sit amet, nam ne duis probo. Has id clita iriure, option menandri vim eu, in per paulo saperet. Mea assum utamur constituam ex. Eam ea dolor mollis accusata, te quo commodo fabulas, cu veritus noluisse accommodare vix."</h2>
+										<p>8.5/10 - Lorem ipsum</p>
+									</div>
+								</div>
+							</div>
+							<div class="column" style="width: 40%; height: 100%; padding-left: 10px;">
+								<div class="comment">
+									<p>Your comment</p>
+									<div style=" border-top: 1px solid #ffaa3c; width: 100%"></div>
+									<div class="info">
+										<img id="avatar" class="avatar" style='width: 100%; height: 100%;' src="dummy/person-2.jpg">
+										<div style="flex: 1; display: flex; flex-direction: column">
+											<div class="name">Name</div>
+											<div class="social">
+												<div></div>
+											</div>
+										</div>
+										<div style="float: right; display: flex; text-align: right; align-items: center;">
+											<span class="TooltipTrigger" data-tooltips="Eripuit contentiones mel ad. Ne eos audire iisque, sit ad duis vidit ignota. Nullam copiosae sit at. Quodsi quaeque ei mea, errem eruditi corpora ne nam. Nam admodum consectetuer ut, libris labores salutandi ei mei. Partem labore quaeque te eam. In ius noster eripuit principes, ei commodo patrioque nam, id tation conceptam sed.">REVIEW TIP</span>
+										</div>
+									</div>
+									<textarea placeholder="Some review templates..."></textarea>
+									<div class="controls">
+										<div style="float: left; height: 100%; width: 40%; display: flex; flex-direction: row;">
+											<div class="thumb-up">
+												<input type="radio" id="option-one" name="selector">
+												<label for="option-one">
+													<img style="width: 24px;" src="images/thumb-up.png">
+												</label>
+											</div>
+											<div style="width: 10px"></div>
+											<div class="thumb-down">
+												<input type="radio" id="option-two" name="selector">
+												<label for="option-two">
+													<img style="width: 24px;" src="images/thumb-down.png">
+												</label>
+											</div>
+										</div>
+										<button type="button">POST</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row" style="margin-bottom: 20px; ">
+							<div class="column" style="display: flex; width: 100%; height: 100%; flex-direction: column">
+								<div class="review">
+									<h1 style="margin: 0px; color: rgba(75, 100, 125, 1); margin-bottom: 10px">Audience Review</h1>
+									<div class="masonry">
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, probo gloriatur reprimique ex cum, suavitate iudicabit efficiantur eu vel, aperiri eligendi moderatius nam et. Id vim timeam nostrum, vis wisi nonumy temporibus et, gubergren.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, ad civibus molestie adipisci pro. Suas contentiones eum an. Oblique assueverit eloquentiam et pri, ne.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, tempor meliore rationibus at nec. Dicta harum fabellas pro eu, te vix lobortis definitiones, his ex placerat lucilius. His an offendit phaedrum, cum te dicam qualisque, qui in quaestio repudiare. Sed in minim vitae nonumy, at eum latine invidunt. Vitae sensibus inimicus cum ex, at.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, ubique argumentum id duo. Latine inciderint te qui, veritus epicuri.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, pri fugit consectetuer ei, essent deseruisse neglegentur pro ut. Te sed quidam sapientem. Mazim iusto in vix. Te est sale delicatissimi. Phaedrum adolescens mea ne.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, odio efficiendi vix te. Integre ocurreret evertitur has cu, ludus laboramus similique nec cu, mazim ceteros his ne. Latine saperet qui id, eu qui quot natum. Mea eros similique conclusionemque ea, cum viris omnesque periculis at, an impetus persequeris concludaturque pri. Ne vim paulo argumentum. Paulo fierent temporibus nec cu, animal laoreet ea est, est nisl alia dolorum ne.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, suscipit lucilius eos an, mea bonorum nostrum at. Rebum equidem vituperatoribus ne sed, in odio ridens diceret quo. Sea id.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, eam falli legendos cu, mazim delenit necessitatibus in mel. Pro melius abhorreant adversarium ea, aeque animal dolorem vis te, vim id paulo abhorreant mediocritatem. Quod quodsi mediocritatem pri ne, quo mundi invidunt intellegat no. Mucius postea eos in, sea nonumy tincidunt appellantur cu. Duo harum vituperatoribus id. Quando quaestio id pri, ne odio persius efficiendi vim.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, eam falli legendos cu, mazim delenit necessitatibus in mel. Pro melius abhorreant adversarium ea, aeque animal dolorem vis te, vim id paulo abhorreant mediocritatem. Quod quodsi mediocritatem pri ne, quo mundi invidunt intellegat no. Mucius postea eos in, sea nonumy tincidunt appellantur cu. Duo harum vituperatoribus id. Quando quaestio id pri, ne odio persius efficiendi vim.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, eam falli legendos cu, mazim delenit necessitatibus in mel. Pro melius abhorreant adversarium ea, aeque animal dolorem vis te, vim id paulo abhorreant mediocritatem. Quod quodsi mediocritatem pri ne, quo mundi invidunt intellegat no. Mucius postea eos in, sea nonumy tincidunt appellantur cu. Duo harum vituperatoribus id. Quando quaestio id pri, ne odio persius efficiendi vim.</span>
+											</div>
+										</div>
+										<div class="item">
+											<div class="dialog">
+												<span class="tip-down"></span>
+												<span>Lorem ipsum dolor sit amet, eam falli legendos cu, mazim delenit necessitatibus in mel. Pro melius abhorreant adversarium ea, aeque animal dolorem vis te, vim id paulo abhorreant mediocritatem. Quod quodsi mediocritatem pri ne, quo mundi invidunt intellegat no. Mucius postea eos in, sea nonumy tincidunt appellantur cu. Duo harum vituperatoribus id. Quando quaestio id pri, ne odio persius efficiendi vim.</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="entry-content" style="margin-bottom: 20px;">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac pharetra libero. Integer in suscipit diam, sit amet eleifend nunc. Curabitur egestas nunc nulla, in aliquet risus efficitur quis. Vivamus facilisis est libero, vitae iaculis nulla cursus in. Suspendisse potenti. In et fringilla ipsum, quis varius quam. Morbi eleifend venenatis diam finibus vehicula. Suspendisse eu blandit metus. Sed feugiat pellentesque turpis, in lacinia ipsum. Vivamus nec luctus orci.</p>
+							<p>Aenean vehicula eget risus sit amet posuere. Maecenas id risus maximus, malesuada leo eget, pellentesque arcu. Phasellus vitae leo rhoncus, consectetur mauris vitae, lacinia quam. Nunc turpis erat, accumsan eget justo quis, auctor ultricies magna. Mauris sodales, risus sit amet hendrerit tincidunt, erat ante facilisis sapien, sit amet maximus neque massa a felis. Nullam consectetur justo massa, vel commodo metus gravida in. Aliquam erat volutpat. Nullam a lorem sed lorem euismod gravida a eu velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis ac ligula vel pharetra. Aenean vitae nulla sed dui volutpat euismod. Nam ex quam, consequat id rutrum sed, porttitor id lectus. Vestibulum venenatis consectetur justo ut sagittis. Duis dignissim tincidunt quam, nec pulvinar libero luctus nec. Morbi blandit nec lorem in ullamcorper.</p>
+							<p>Vestibulum et odio massa. Integer at odio ipsum. Proin vitae tristique nibh. Aenean semper ante sit amet ante ultricies tincidunt. Curabitur cursus, urna non ultricies posuere, dolor lacus cursus lorem, a dapibus nibh ex eget sem. Aliquam semper sagittis sapien a fermentum. Nullam sed iaculis lacus, et imperdiet risus. Praesent quis turpis ac nunc sodales tincidunt. Aliquam at leo odio. Sed a tempor nisl, et mattis felis. Nam mauris nunc, commodo ac orci ut, auctor viverra mauris.</p>
+							<p>Quisque nec justo vitae metus consectetur ultrices. Duis venenatis lorem massa, eu pulvinar quam faucibus sed. Nulla fringilla lorem sit amet sagittis mattis. Nunc in leo a odio mollis consectetur. Etiam ac nisl eget diam ullamcorper porta. Aliquam consectetur neque eget metus egestas sollicitudin. Curabitur ultrices urna et feugiat malesuada.</p>
+							<p>Nulla facilisi. Fusce sed dapibus leo, eu lobortis ante. Duis luctus mauris in ante semper, ut feugiat nisi condimentum. Nullam a odio et justo suscipit tempus. Vestibulum placerat dapibus quam, a egestas turpis efficitur id. Integer suscipit placerat placerat. Phasellus in lorem quis leo egestas accumsan. Nam et euismod ligula. Duis nec erat aliquam, sollicitudin diam non, ornare leo. Pellentesque augue leo, faucibus in nunc nec, tincidunt ullamcorper tortor. Phasellus aliquam condimentum elit. Nulla facilisi. Donec magna libero, bibendum eu faucibus et, mattis at felis. Integer turpis nibh, blandit nec elit vel, euismod laoreet quam. Donec vel ante nisi. Nunc luctus a tellus non.</p>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .container -->
+		</main>
+		<footer class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="column" style="width: 20%">
+						<div class="widget">
+							<h3 class="widget-title">About Us</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia tempore vitae mollitia nesciunt saepe cupiditate</p>
+						</div>
+					</div>
+					<div class="column" style="width: 20%">
+						<div class="widget">
+							<h3 class="widget-title">Recent Review</h3>
+							<ul class="no-bullet">
+								<li><a href="#">Lorem ipsum dolor</a></li>
+								<li><a href="#">Sit amet consecture</a></li>
+								<li><a href="#">Dolorem respequem</a></li>
+								<li><a href="#">Invenore veritae</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="column" style="width: 20%">
+						<div class="widget">
+							<h3 class="widget-title">Help Center</h3>
+							<ul class="no-bullet">
+								<li><a href="#">Lorem ipsum dolor</a></li>
+								<li><a href="#">Sit amet consecture</a></li>
+								<li><a href="#">Dolorem respequem</a></li>
+								<li><a href="#">Invenore veritae</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="column" style="width: 20%">
+						<div class="widget">
+							<h3 class="widget-title">Social Media</h3>
+							<ul class="no-bullet">
+								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Twitter</a></li>
+								<li><a href="#">Google+</a></li>
+								<li><a href="#">Pinterest</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="column" style="width: 20%">
+						<div class="widget">
+							<h3 class="widget-title">Newsletter</h3>
+							<form action="#" class="subscribe-form">
+								<input type="text" placeholder="Email Address">
+							</form>
+						</div>
+					</div>
+				</div> <!-- .row -->
+				<div class="colophon">15520371 - 15520605 - 15520429 - 15520367</div>
+			</div> <!-- .container -->
+		</footer>
+		<!-- Default snippet for navigation -->
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		<script>
+			document.getElementById("avatar").style.width = (String(document.getElementById("avatar").clientHeight) + "px");
+			var Tooltips = document.getElementsByClassName('TooltipTrigger');
+    		for (var i = 0; i < Tooltips.length; i++)
+    		{
+      			Tooltips[i].addEventListener("mouseenter", function(ev) {
+        			ev.preventDefault();
+        			this.style.position = "relative";
+    				this.innerHTML = this.innerHTML + "<div class='Tooltips'><p>" + this.getAttribute("data-tooltips") + "</p></div>";
+      			});
+				Tooltips[i].addEventListener("mouseleave", function(ev) {
+					ev.preventDefault();
+					//this.removeAttribute("style");
+					this.innerHTML = this.innerHTML.replace(/<div[^]*?<\/div>/, '');;
+				});
+			}
+			document.getElementById("poster").style.height = (String(document.getElementById("info").clientHeight) + "px");
+		</script>
+	</body>
+
+</html>
